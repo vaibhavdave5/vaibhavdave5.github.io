@@ -15,10 +15,11 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Kenedy Personal</title>
+	<title>Vaibhav Dave</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<!--
 			CSS
 			============================================= -->
@@ -48,27 +49,23 @@
 		<div class="container main-menu">
 			<div class="row align-items-center d-flex">
 				<div id="logo">
-					<a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+					<a href="index.html"><img src="img/fav.png" alt="" title="" /></a>
+				</div>
+				<div id="logo">
+					<a href="https://github.com/vaibhavdave5/"><i class="fab fa-github fa-2x"></i></a>
+				</div>
+				<div id="logo">
+					<a href="https://bitbucket.org/v_dave/"><i class="fab fa-bitbucket fa-2x"></i></a>
+				</div>
+				<div id="logo">
+					<a href="https://www.linkedin.com/in/vaibhav-dave-92b4a0107/"><i class="fab fa-linkedin-in fa-2x"></i></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
 						<li class=""><a class="active" href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li class="menu-has-children"><a href="#">Pages</a>
-							<ul>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="services.html">Service</a></li>
-								<li><a href="portfolio-details.html">Portfolio Details</a></li>
-							</ul>
-						</li>
-						<li class="menu-has-children"><a href="">Blog</a>
-							<ul>
-								<li><a href="blog-home.html">Blog Home</a></li>
-								<li><a href="blog-single.html">Blog Single</a></li>
-							</ul>
-						</li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#proj">Projects</a></li>
+						<li><a href="#wexp">Work Exp & More</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -80,28 +77,23 @@
 	<!-- start banner Area -->
 	<section class="home-banner-area">
 		<div class="container">
-			<div class="row fullscreen d-flex align-items-center">
+			<div class="row fullscreen d-flex align-items-center" style="height: 400px;">
 				<div class="banner-content col-lg-6 col-md-12 justify-content-center ">
-					<div class="me wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.2s">It's me</div>
-					<h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.7s">Kenedy Jackson</h1>
+					
+					<h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.7s">Vaibhav Dave</h1>
 					<div class="designation mb-50 wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.1s">
-						Senior Creative
-						<span class="designer">Designer</span>
-						and Content
-						<span class="developer">Developer</span>
+						Pursuing 
+						<span class="designer">Masters in Computer Science</span>
+						
+						<span class="developer">at Northeastern University</span>
 					</div>
-					<a href="#" class="primary-btn" data-text="Hire Me">
-						<span>H</span>
-						<span>i</span>
-						<span>r</span>
-						<span>e</span>
-						<span> </span>
+					<a href="#cont" class="primary-btn" data-text="Contact">
 						<span>M</span>
 						<span>e</span>
 					</a>
 				</div>
 				<div class="banner-img col-lg-6 col-md-6 align-self-end">
-					<img class="img-fluid" src="img/banner-img.png" alt="">
+					<img class="img-fluid" src="img/banner-img2.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -110,65 +102,45 @@
 
 
 	<!-- Start brands Area -->
-	<section class="brands-area">
+	<!-- <section class="brands-area">
 		<div class="container">
 			<div class="brand-wrap">
 				<div class="row align-items-center active-brand-carusel justify-content-start no-gutters">
 					<div class="col single-brand">
-						<a href="#"><img class="mx-auto" src="img/brand/b1.png" alt=""></a>
-					</div>
-					<div class="col single-brand">
-						<a href="#"><img class="mx-auto" src="img/brand/b2.png" alt=""></a>
-					</div>
-					<div class="col single-brand">
-						<a href="#"><img class="mx-auto" src="img/brand/b3.png" alt=""></a>
-					</div>
-					<div class="col single-brand">
-						<a href="#"><img class="mx-auto" src="img/brand/b4.png" alt=""></a>
-					</div>
-					<div class="col single-brand">
-						<a href="#"><img class="mx-auto" src="img/brand/b5.png" alt=""></a>
-					</div>
+						<a href="#"><img class="mx-auto" src="img/brand/b11.png" alt=""></a>
+                    </div>
+                    <div class="col single-brand">
+                            <a href="#"><img class="mx-auto" width="300px" src="img/brand/b22.png" alt=""></a>
+                    </div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- End brands Area -->
 
 
 	<!-- Start About Area -->
-	<section class="about-area section-gap">
+	<section class="about-area section-gap" id="about">
 		<div class="container">
 			<div class="row align-items-center justify-content-between">
-				<div class="col-lg-6 about-left">
+				<!-- <div class="col-lg-6 about-left">
 					<img class="img-fluid" src="img/about-img.jpg" alt="">
-				</div>
-				<div class="col-lg-5 col-md-12 about-right">
+				</div> -->
+				<div class="col-lg-12 col-md-12 about-right">
 					<div class="section-title">
-						<h2>about myselt</h2>
+						<h2>about myself</h2>
 					</div>
 					<div class="mb-50 wow fadeIn" data-wow-duration=".8s">
 						<p>
-							inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the
-							workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior
-							is often laughed. inappropriate behavior is often laughed off as “boys will be boys,” women face higher.
+							Intrigued by the amazing courses that I completed in my undergraduate led me to pursue a Masters degree at Northeastern University in Computer Science. With the skills gained at Northeastern, I am excited to apply the knowledge in the industry and increase my prowess.
+
+My interests in Software Development have led me to build some projects using varied technologies and frameworks like Bootstrap, J2EE, React, Node.js, Express.js. I am a quick learner and can adapt myself to any work environment and technology.
+Having used my development skills in varied scenarios I am currently looking to venture in the field of Big Data and Cloud to expand my horizon as a Software Developer.
+I like to participate in hackathons and working and interacting with people from different cultures having different skillsets. My research interest lies in the field of Machine Learning. 
 						</p>
-						<p>That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often
-							laughed.
-						</p>
+				
 					</div>
-					<a href="#" class="primary-btn white" data-text="More Info">
-						<span>M</span>
-						<span>o</span>
-						<span>r</span>
-						<span>e</span>
-						<span> </span>
-						<span>I</span>
-						<span>n</span>
-						<span>f</span>
-						<span>o</span>
-					</a>
-					<a href="#" class="primary-btn" data-text="Resume">
+					<a href="https://www.dropbox.com/s/ctr2olmkbsentqp/Resume_Vaibhav_Dave.pdf?dl=0" class="primary-btn" data-text="Resume">
 						<span>R</span>
 						<span>e</span>
 						<span>s</span>
@@ -185,24 +157,22 @@
 
 	<!-- Start Work Area Area -->
 	<section class="work-area section-gap-top section-gap-bottom-90" id="work">
-		<div class="container">
+		<div class="container" id="proj">
 			<div class="row d-flex justify-content-between align-items-end mb-80">
 				<div class="col-lg-6">
 					<div class="section-title">
-						<h2>Latest Works</h2>
-						<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see
-							some for as low as $.17 each.</p>
+						<h2>Latest Projects</h2>
 					</div>
 				</div>
 
 				<div class="col-lg-6">
 					<div class="filters">
-						<ul>
+						<!-- <ul>
 							<li class="active" data-filter=".all">All Categories</li>
 							<li data-filter=".branding">Branding</li>
 							<li data-filter=".creative">Creative Work</li>
 							<li data-filter=".web-design">Web Design</li>
-						</ul>
+						</ul> -->
 					</div>
 				</div>
 			</div>
@@ -216,10 +186,10 @@
 								<img class="image img-fluid" src="img/work/w1.jpg" alt="">
 							</div>
 							<div class="middle">
-								<h4>2D Vinyl Design</h4>
-								<div class="cat">Client Project</div>
+								<h4>Map Reduce</h4>
+								<div class="cat">With Hadoop and Spark</div>
 							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
+							<a class="overlay" href="https://github.com/vaibhavdave5/MapReduce"></a>
 						</div>
 					</div>
 					<div class="single-work col-lg-4 col-md-6 col-sm-12 all web-design branding wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
@@ -229,10 +199,10 @@
 								<img class="image img-fluid" src="img/work/w2.jpg" alt="">
 							</div>
 							<div class="middle">
-								<h4>2D Vinyl Design</h4>
-								<div class="cat">Client Project</div>
+								<h4>Web projects</h4>
+								<div class="cat">With React and Redux</div>
 							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
+							<a class="overlay" href="w2.html"></a>
 						</div>
 					</div>
 					<div class="single-work col-lg-4 col-md-6 col-sm-12 all branding web-design wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
@@ -242,10 +212,10 @@
 								<img class="image img-fluid" src="img/work/w3.jpg" alt="">
 							</div>
 							<div class="middle">
-								<h4>2D Vinyl Design</h4>
-								<div class="cat">Client Project</div>
+								<h4>Web Projects</h4>
+								<div class="cat">With JS and JQuery</div>
 							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
+							<a class="overlay" href="w3.html"></a>
 						</div>
 					</div>
 					<div class="single-work col-lg-4 col-md-6 col-sm-12 all web-design wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
@@ -255,10 +225,10 @@
 								<img class="image img-fluid" src="img/work/w6.jpg" alt="">
 							</div>
 							<div class="middle">
-								<h4>2D Vinyl Design</h4>
-								<div class="cat">Client Project</div>
+								<h4>MongoDB</h4>
+								<div class="cat">Working with Mongo and PyMongo</div>
 							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
+							<a class="overlay" href="https://bitbucket.org/v_dave/pymongo-notebooks/src/master/"></a>
 						</div>
 					</div>
 					<div class="single-work col-lg-4 col-md-6 col-sm-12 all creative wow fadeInUp" data-wow-duration="2s">
@@ -268,10 +238,9 @@
 								<img class="image img-fluid" src="img/work/w4.jpg" alt="">
 							</div>
 							<div class="middle">
-								<h4>2D Vinyl Design</h4>
-								<div class="cat">Client Project</div>
+								<h4>Spring MVC</h4>
 							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
+							<a class="overlay" href="w4.html"></a>
 						</div>
 					</div>
 					<div class="single-work col-lg-4 col-md-6 col-sm-12 all branding wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
@@ -281,12 +250,39 @@
 								<img class="image img-fluid" src="img/work/w5.jpg" alt="">
 							</div>
 							<div class="middle">
-								<h4>2D Vinyl Design</h4>
-								<div class="cat">Client Project</div>
+								<h4>Web Project</h4>
+								<div class="cat">Working with Angular and Node</div>
 							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
+							<a class="overlay" href="w5.html"></a>
 						</div>
 					</div>
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all web-design wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/w8.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>Plagiarism Detector</h4>
+								<div class="cat">JavaFX-UI and Pure Java-Backend</div>
+							</div>
+							<a class="overlay" href="https://github.com/vaibhavdave5/MSDProject"></a>
+						</div>
+					</div>
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all creative wow fadeInUp" data-wow-duration="2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/w7.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>Custom Indexing and Retrieval Models</h4>
+							</div>
+							<a class="overlay" href="https://github.com/vaibhavdave5/IR"></a>
+						</div>
+					</div>
+					
+
 				</div>
 			</div>
 		</div>
@@ -295,14 +291,13 @@
 
 
 	<!-- Start Job History Area Area -->
-	<section class="job-area section-gap-top section-gap-bottom-90">
+	<section class="job-area section-gap-top section-gap-bottom-90" id="wexp">
 		<div class="container">
 			<div class="row d-flex">
 				<div class="col-lg-12">
 					<div class="section-title">
 						<h2>Job History</h2>
-						<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see
-							some for as low as $.17 each.</p>
+						
 					</div>
 				</div>
 			</div>
@@ -312,21 +307,21 @@
 					<div class="single-job">
 						<div class="top-sec d-flex justify-content-between">
 							<div class="top-left">
-								<h4>Senior Creative Design</h4>
-								<p>Old Bird IT, New Yorkt</p>
+								<h4>Teaching Assistant</h4>
+								<p>Northeastern University, Boston, MA</p>
 							</div>
 							<div class="top-right">
-								<a href="#" class="primary-btn" data-text="Jul '15 to Present">
-									<span>J</span><span>u</span><span>l</span>
-									<span>'</span><span>1</span><span>5</span>
+								<a href="#" class="primary-btn" data-text="Jan '19 to Present">
+									<span>J</span><span>a</span><span>n</span>
+									<span>'</span><span>1</span><span>9</span>
 									<span>t</span><span>o</span>
 									<span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
 								</a>
 							</div>
 						</div>
 						<div class="bottom-sec wow fadeIn" data-wow-duration="2s">
-							All users on MySpace will know that there are millions of people out there. Every day besides. All users on My will know
-							that there are millions of people out of the field there.
+							Assist the professor in activities like grading and setting up homework and assignments for the course.
+							Conduct office and online hours to solve doubts of the current students.
 						</div>
 					</div>
 				</div>
@@ -335,21 +330,23 @@
 					<div class="single-job">
 						<div class="top-sec d-flex justify-content-between">
 							<div class="top-left">
-								<h4>Senior Visualiser</h4>
-								<p>Old Bird IT, New Yorkt</p>
+								<h4>Software Engineering CO-OP</h4>
+								<p>Bose Corporation, Stow, MA</p>
 							</div>
 							<div class="top-right">
-								<a href="#" class="primary-btn" data-text="Jul '15 to Present">
+								<a href="#" class="primary-btn" data-text="Jul '18 to Dec '18">
 									<span>J</span><span>u</span><span>l</span>
-									<span>'</span><span>1</span><span>5</span>
-									<span>t</span><span>o</span>
-									<span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
+									<span>'</span><span>1</span><span>8</span><span>-</span>
+									<span>D</span><span>e</span><span>c</span>
+									<span>'</span><span>1</span><span>8</span>
 								</a>
 							</div>
 						</div>
 						<div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
-							All users on MySpace will know that there are millions of people out there. Every day besides. All users on My will know
-							that there are millions of people out of the field there.
+							Created a tool which helps users to build and visualize Audio graph using technologies like JavaScript for front-end, spring-mvc for server-side scripting and utility-modules scripted both in Java and Python.
+ Decreased audio graph creation time by auto generating source code from the visual representation of Audio graph, rather than manually writing it.
+ Integrated Audio-Graph application to windows audio platform using an inhouse framework and technologies like C++ and Windows Audio Session APIs.
+ Developed a GUI in matplotlib(python) to send and receive real-time data from hardware using serial connection and analyzed it.
 						</div>
 					</div>
 				</div>
@@ -358,47 +355,101 @@
 					<div class="single-job">
 						<div class="top-sec d-flex justify-content-between">
 							<div class="top-left">
-								<h4>Junior Visualiser</h4>
-								<p>Old Bird IT, New Yorkt</p>
+								<h4>Software Developer Intern</h4>
+								<p>Advarisk, Mumbai</p>
 							</div>
 							<div class="top-right">
-								<a href="#" class="primary-btn" data-text="Jul '15 to Present">
-									<span>J</span><span>u</span><span>l</span>
-									<span>'</span><span>1</span><span>5</span>
+								<a href="#" class="primary-btn" data-text="May '16 to Jul '16">
+									<span>M</span><span>a</span><span>y</span>
+									<span>'</span><span>1</span><span>6</span>
 									<span>t</span><span>o</span>
-									<span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
+									<span>J</span><span>u</span><span>l</span>
+									<span>'</span><span>1</span><span>6</span>
+					
 								</a>
 							</div>
 						</div>
 						<div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-							All users on MySpace will know that there are millions of people out there. Every day besides. All users on My will know
-							that there are millions of people out of the field there.
+							Developed a tool using Phantom and Casper JavaScript to automate the process of downloading relevant documents from target websites.
+ Constructed a web crawler, parser and a downloader using headless browser for the above-mentioned task.
+ Analyzed millions of transactions between various parties to isolate fraud chains and rings using Neo4j.
 						</div>
 					</div>
 				</div>
 
-				<div class="col-lg-6">
+			</div>
+		</div>
+	</section>
+	<!-- End Job Historyt Area Area -->
+
+
+	<!-- Start Job History Area Area -->
+	<section class="job-area section-gap-top section-gap-bottom-90">
+		
+		
+		<div class="container">
+			<div class="row d-flex">
+				<div class="col-lg-12">
+					<div class="section-title">
+						<h2>Certifications and Publications</h2>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="row">
+				<div class="col-lg-6" id="certi">
 					<div class="single-job">
 						<div class="top-sec d-flex justify-content-between">
-							<div class="top-left">
-								<h4>Intern Designer</h4>
-								<p>Old Bird IT, New Yorkt</p>
-							</div>
-							<div class="top-right">
-								<a href="#" class="primary-btn" data-text="Jul '15 to Present">
-									<span>J</span><span>u</span><span>l</span>
-									<span>'</span><span>1</span><span>5</span>
-									<span>t</span><span>o</span>
-									<span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
-								</a>
-							</div>
-						</div>
-						<div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
-							All users on MySpace will know that there are millions of people out there. Every day besides. All users on My will know
-							that there are millions of people out of the field there.
+								<h4>Certifications</h4>
 						</div>
 					</div>
 				</div>
+                <script>
+					document.getElementById("certi").onclick = function() {myFunction()};
+					
+					function myFunction() {
+						alert("You will be redirected to my LinkedIn account. Scroll Down to view my certifications and more");
+						location.href = 'https://www.linkedin.com/in/vaibhav-dave-92b4a0107/'
+					}
+				</script>
+
+				<div class="col-lg-6">
+					<div class="single-job">
+						<div class="top-sec d-flex justify-content-between" onclick="location.href = 'https://ieeexplore.ieee.org/document/7991930'"">
+								<h4>Publication</h4>
+						</div>
+					</div>
+				</div>
+
+				
+				<!-- <div class="col-lg-6">
+					<div class="single-job">
+						<div class="top-sec d-flex justify-content-between">
+							<div class="top-left">
+								<h4>Software Developer Intern</h4>
+								<p>Advarisk, Mumbai</p>
+							</div>
+							<div class="top-right">
+								<a href="#" class="primary-btn" data-text="May '16 to Jul '16">
+									<span>M</span><span>a</span><span>y</span>
+									<span>'</span><span>1</span><span>6</span>
+									<span>t</span><span>o</span>
+									<span>J</span><span>u</span><span>l</span>
+									<span>'</span><span>1</span><span>6</span>
+					
+								</a>
+							</div>
+						</div>
+						<div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+							Developed a tool using Phantom and Casper JavaScript to automate the process of downloading relevant documents from target websites.
+ Constructed a web crawler, parser and a downloader using headless browser for the above-mentioned task.
+ Analyzed millions of transactions between various parties to isolate fraud chains and rings using Neo4j.
+						</div>
+					</div>
+				</div> -->
+
 			</div>
 		</div>
 	</section>
@@ -406,7 +457,7 @@
 
 
 	<!-- Start Service Area -->
-	<section class="service-area section-gap">
+	<!-- <section class="service-area section-gap">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -453,12 +504,12 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- End Service Area -->
 
 
 	<!-- Start Testimonials Area -->
-	<section class="testimonials_area section-gap">
+	<!-- <section class="testimonials_area section-gap">
 		<div class="container">
 			<div class="testi_slider owl-carousel">
 				<div class="item">
@@ -520,7 +571,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- End Testimonials Area -->
 
 
@@ -531,42 +582,32 @@
 				<div class="col-lg-12">
 					<div class="contact-title">
 						<h2>Contact Me</h2>
-						<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see
-							some for as low as $.17 each.</p>
+						<!-- <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see
+							some for as low as $.17 each.</p> -->
 					</div>
 				</div>
 			</div>
 
-			<div class="row mt-80">
-				<div class="col-lg-4 col-md-4">
+			<div class="row mt-80" id="cont">
+				<div class="col-lg-6 col-md-6">
 					<div class="contact-box">
-						<h4>+44 2365 654 8962</h4>
+						<h4>+1 617 412 1974</h4>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4">
+				<div class="col-lg-6 col-md-6">
 					<div class="contact-box">
-						<h4>information@colorlib.com</h4>
+						<h4>dave.v@northeastern.edu</h4>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4">
+				<!-- <div class="col-lg-4 col-md-4">
 					<div class="contact-box">
 						<h4>kenedyjackson.me</h4>
 					</div>
-				</div>
+				</div> -->
 			</div>
 
 			<div class="row">
-				<div class="col-lg-12 text-center">
-					<a href="#" class="primary-btn mt-50" data-text="Hire Me">
-						<span>H</span>
-						<span>i</span>
-						<span>r</span>
-						<span>e</span>
-						<span> </span>
-						<span>M</span>
-						<span>e</span>
-					</a>
-				</div>
+				
 			</div>
 		</div>
 	</section>
@@ -580,17 +621,7 @@
 				<div class="col-lg-12">
 					<div class="footer-top flex-column">
 						<div class="footer-logo">
-							<a href="#">
-								<img src="img/logo.png" alt="">
-							</a>
-							<h4>Follow Me</h4>
-						</div>
-						<div class="footer-social">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a>
-						</div>
+							
 					</div>
 				</div>
 			</div>
@@ -633,3 +664,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </body>
 
 </html>
+
+
